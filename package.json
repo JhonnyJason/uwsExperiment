@@ -5,7 +5,7 @@
     "scripts": {
         "build-coffee": "coffee -o toolset/build/js/ -c sources/source/*/*.coffee",
         "watch-coffee": "coffee -o toolset/build/js/ -cw sources/source/*/*.coffee",
-        "build-live": "lsc -o toolset/build/js/ -c sources/source/*/*.ls",
+        "build-live": "",
         "watch-live": "",
         "link-all-js-and-json": "toolset/thingy-build-system/link-all-js-and-json.js",
         "ncu-update": "ncu -u",
